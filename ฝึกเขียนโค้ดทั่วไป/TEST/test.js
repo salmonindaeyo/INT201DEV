@@ -32,3 +32,10 @@ return str.replace(/[aeiou]/g,'*')
 }
 
 console.log(re("hello world"));
+
+
+countV = (str) => {
+    return str.split("").filter(c=>!(c==" ")).join("").length
+}
+
+console.log(countV("str EE"));
