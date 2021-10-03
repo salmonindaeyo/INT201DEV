@@ -1,5 +1,7 @@
-let scores = [82,75,48,64,36];
+let scores = [1,2,3,4,5];
 
 let sumScore = scores.reduce((sum,score)=>sum+score)
 
 console.log(sumScore)
+
+
