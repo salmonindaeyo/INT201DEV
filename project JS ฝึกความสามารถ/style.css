@@ -1,0 +1,46 @@
+#switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#switcher li {
+    
+    
+    width: 30px;
+    height: 30px;
+    margin: 100px 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+
+    display:inline-block;
+    *display:inline; /*IE7*/
+    *zoom:1; /*IE7*/
+    
+   
+
+}
+
+#pinkButton {
+    background: rgb(255, 155, 155);
+}
+
+#whiteButton {
+    background: rgb(255, 255, 255);
+}
+
+#blueButton {
+    background: rgb(76, 95, 179);
+}
+#yellowButton {
+    background: rgb(235, 236, 140);
+}
+
+ul {
+    
+   
+    text-align:center;
+}
+
