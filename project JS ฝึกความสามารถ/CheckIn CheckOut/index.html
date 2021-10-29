@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common room check-in</title>
+    <style>
+        body {
+            font-family: Verdana;
+        }
+
+        .dot {
+            height: 25px;
+            width: 25px;
+            background-color: green;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        div {
+            background-color: white;
+            width: 180px;
+            border: 10px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .button {
+            margin-left: 40px;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+    <h1>room check-in/out</h1>
+    <div>
+        <h1> Room 1</h1>
+        <span class="dot" id="dot11"></span>
+        <span class="dot" id="dot12"></span>
+        <span class="dot" id="dot13"></span>
+        <span class="dot" id="dot14"></span>
+        <span class="dot" id="dot15"></span>
+        <span class="dot" id="dot16"></span>
+        <h1> Room 2</h1>
+        <span class="dot" id="dot21"></span>
+        <span class="dot" id="dot22"></span>
+        <span class="dot" id="dot23"></span>
+        <span class="dot" id="dot24"></span>
+        <span class="dot" id="dot25"></span>
+        <span class="dot" id="dot26"></span>
+        <h1> Room 3</h1>
+        <span class="dot" id="dot31"></span>
+        <span class="dot" id="dot32"></span>
+        <span class="dot" id="dot33"></span>
+        <span class="dot" id="dot34"></span>
+        <span class="dot" id="dot35"></span>
+        <span class="dot" id="dot36"></span>
+        <h1> Room 4</h1>
+        <span class="dot" id="dot41"></span>
+        <span class="dot" id="dot42"></span>
+        <span class="dot" id="dot43"></span>
+        <span class="dot" id="dot44"></span>
+        <span class="dot" id="dot45"></span>
+        <span class="dot" id="dot46"></span>
+        <h1> Room 5</h1>
+        <span class="dot" id="dot51"></span>
+        <span class="dot" id="dot52"></span>
+        <span class="dot" id="dot53"></span>
+        <span class="dot" id="dot54"></span>
+        <span class="dot" id="dot55"></span>
+        <span class="dot" id="dot56"></span>
+    </div>
+
+    <input type="button" class="button" value="Check-in" onclick=checkin();>
+    <input type="button" class="button" value="Check-out" onclick=checkout();>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
