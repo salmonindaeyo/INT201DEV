@@ -2,4 +2,5 @@
 ## เป็นการฝึกใช้ DOOM ในการเข้าไปเปลี่ยน style ใน html,css
 
 
-![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-482a690ba648.gif)
+<img src="https://www.img.in.th/images/10299bc223b9d100bf67f0f0322fc205.gif" alt="10299bc223b9d100bf67f0f0322fc205.gif" border="0" />
+
